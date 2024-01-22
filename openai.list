@@ -20,7 +20,8 @@ DOMAIN-SUFFIX,production-openaicom-storage.azureedge.net
 DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,stripe.com
-DOMAIN,chat.openai.com
-DOMAIN,*.openai.com
-DOMAIN,*.ai.com
+DOMAIN-SUFFIX,chat.openai.com
+DOMAIN-SUFFIX,*.openai.com
+DOMAIN-SUFFIX,*.ai.com
 DOMAIN-KEYWORD,openai
+DOMAIN-SUFFIX,*.comoaistatic.com
