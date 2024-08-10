@@ -1,3 +1,17 @@
 ## Roskomnadzor list
 
 DOMAIN-SUFFIX,*.pages.dev
+DOMAIN-SUFFIX,*.signal.org
+DOMAIN-SUFFIX,textsecure-service.whispersystems.org
+DOMAIN-SUFFIX,cdn.signal.org
+DOMAIN-SUFFIX,cdn2.signal.org
+DOMAIN-SUFFIX,signal.me
+DOMAIN-SUFFIX,updates.signal.org
+DOMAIN-SUFFIX,contact.discovery.signal.org
+DOMAIN-SUFFIX,textsecure-service-ca.whispersystems.org
+DOMAIN-SUFFIX,textsecure-service-ca.signal.org
+DOMAIN-SUFFIX,textsecure-service.whispersystems.net
+DOMAIN-SUFFIX,storage.signal.org
+DOMAIN-SUFFIX,cdn.signal.me
+DOMAIN-SUFFIX,cdn2.signal.me
+DOMAIN-SUFFIX,signal.org
