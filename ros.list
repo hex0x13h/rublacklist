@@ -1,7 +1,7 @@
-## Roskomnadzor list
+# Roskomnadzor list
 
-DOMAIN-SUFFIX,*.pages.dev
-DOMAIN-SUFFIX,*.signal.org
+DOMAIN-SUFFIX,pages.dev
+DOMAIN-SUFFIX,signal.org
 DOMAIN-SUFFIX,textsecure-service.whispersystems.org
 DOMAIN-SUFFIX,cdn.signal.org
 DOMAIN-SUFFIX,cdn2.signal.org
@@ -14,6 +14,6 @@ DOMAIN-SUFFIX,textsecure-service.whispersystems.net
 DOMAIN-SUFFIX,storage.signal.org
 DOMAIN-SUFFIX,cdn.signal.me
 DOMAIN-SUFFIX,cdn2.signal.me
-DOMAIN-SUFFIX,signal.org
-DOMAIN-SUFFIX,*.itsmycity.ru
-DOMAIN-SUFFIX,*.ficbook.net
+DOMAIN-SUFFIX,itsmycity.ru
+DOMAIN-SUFFIX,ficbook.net
+
