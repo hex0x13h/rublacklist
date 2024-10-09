@@ -71,7 +71,6 @@ DOMAIN-SUFFIX,google.com.om
 DOMAIN-SUFFIX,google.com.qa
 DOMAIN-SUFFIX,google.bh
 DOMAIN-SUFFIX,google.com.cy
-DOMAIN-SUFFIX,google.com.bh
 DOMAIN-SUFFIX,google.com.by
 DOMAIN-SUFFIX,google.rs
 DOMAIN-SUFFIX,google.com.ua
@@ -88,3 +87,7 @@ DOMAIN-SUFFIX,google.com.kh
 DOMAIN-SUFFIX,google.com.tj
 DOMAIN-SUFFIX,google.com.tm
 DOMAIN-SUFFIX,google.com.uz
+DOMAIN-SUFFIX,g.doubleclick.net
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtu.be
