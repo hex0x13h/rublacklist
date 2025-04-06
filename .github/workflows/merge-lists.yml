@@ -19,8 +19,8 @@ jobs:
           # 复制所有 .list 文件到临时目录，排除 domains.list 和 full.list
           find . -name "*.list" -not -name "domains.list" -not -name "full.list" -exec cp {} temp/ \;
           
-          # 合并所有列表文件
-          cat temp/*.list | sort | uniq > bypass.list
+          # 合并所有列表文件，过滤掉注释行
+          cat temp/*.list | grep -v '^#' | sort | uniq > bypass.list
           
           # 清理临时目录
           rm -rf temp
