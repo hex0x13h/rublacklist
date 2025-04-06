@@ -1,0 +1,33 @@
+name: Merge Lists
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  merge-lists:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Merge lists
+        run: |
+          # 创建临时目录
+          mkdir -p temp
+          
+          # 复制所有 .list 文件到临时目录，排除 domains.list 和 full.list
+          find . -name "*.list" -not -name "domains.list" -not -name "full.list" -exec cp {} temp/ \;
+          
+          # 合并所有列表文件
+          cat temp/*.list | sort | uniq > bypass.list
+          
+          # 清理临时目录
+          rm -rf temp
+          
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add bypass.list
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update bypass.list" && git push) 
