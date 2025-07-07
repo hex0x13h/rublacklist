@@ -1,10 +1,28 @@
 
 DOMAIN,ab.chatgpt.com
+DOMAIN,android.chat.openai.com
+DOMAIN,app.launchdarkly.com
+DOMAIN,auth0.openai.com
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,cdn.usefathom.com
+DOMAIN,chat.openai.com
 DOMAIN,chatgpt.com
+DOMAIN,clientstream.launchdarkly.com
+DOMAIN,desktop.chat.openai.com
+DOMAIN,events.launchdarkly.com
+DOMAIN,featureassets.org
+DOMAIN,forwarder.workos.com
+DOMAIN,ios.chat.openai.com
+DOMAIN,js.intercomcdn.com
+DOMAIN,js.stripe.com
+DOMAIN,o207216.ingest.sentry.io
+DOMAIN,o33249.ingest.sentry.io
+DOMAIN,prodregistryv2.org
+DOMAIN,setup.auth.openai.com
+DOMAIN,setup.workos.com
 DOMAIN,static.cloudflareinsights.com
 DOMAIN,statsigapi.net
+DOMAIN,tcr9i.chat.openai.com
 DOMAIN,voice.telephony.goog
 DOMAIN-KEYWORD,appspot
 DOMAIN-KEYWORD,blogspot
@@ -72,6 +90,7 @@ DOMAIN-SUFFIX,area120.com
 DOMAIN-SUFFIX,asp-cc.com
 DOMAIN-SUFFIX,atdmt.com
 DOMAIN-SUFFIX,atlassolutions.com
+DOMAIN-SUFFIX,auth.openai.com
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,autodraw.com
 DOMAIN-SUFFIX,avail.googleflights.net
@@ -174,6 +193,7 @@ DOMAIN-SUFFIX,blogspot.ug
 DOMAIN-SUFFIX,blogspot.vn
 DOMAIN-SUFFIX,brocaproject.com
 DOMAIN-SUFFIX,brotli.org
+DOMAIN-SUFFIX,browser-intake-datadoghq.com
 DOMAIN-SUFFIX,bumpshare.com
 DOMAIN-SUFFIX,bumptop.ca
 DOMAIN-SUFFIX,bumptop.com
@@ -200,6 +220,7 @@ DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,charlestonroadregistry.com
 DOMAIN-SUFFIX,chat.gle
 DOMAIN-SUFFIX,chat.openai.com
+DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,chatgpt.livekit.cloud
 DOMAIN-SUFFIX,chess.com
 DOMAIN-SUFFIX,chrome.com
@@ -831,6 +852,8 @@ DOMAIN-SUFFIX,stadia.dev
 DOMAIN-SUFFIX,staging-controlbe.floonet.goog
 DOMAIN-SUFFIX,staging-databe.floonet.goog
 DOMAIN-SUFFIX,staging.databe.floonet.goog
+DOMAIN-SUFFIX,statsig.com
+DOMAIN-SUFFIX,statsigapi.net
 DOMAIN-SUFFIX,stcroixmosquito.com
 DOMAIN-SUFFIX,stcroixmosquitoproject.com
 DOMAIN-SUFFIX,steampowered.com
@@ -925,6 +948,8 @@ DOMAIN-SUFFIX,womenwill.com.br
 DOMAIN-SUFFIX,womenwill.id
 DOMAIN-SUFFIX,womenwill.in
 DOMAIN-SUFFIX,womenwill.mx
+DOMAIN-SUFFIX,workos.com
+DOMAIN-SUFFIX,workoscdn.com
 DOMAIN-SUFFIX,worldfcdn.com
 DOMAIN-SUFFIX,wsdvs.com
 DOMAIN-SUFFIX,www.destinationurl.com
