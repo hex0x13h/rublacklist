@@ -1,3 +1,9 @@
+DOMAIN,*.preply.com
+DOMAIN,*.preply.net
+DOMAIN,*.preply.org
+DOMAIN,*.preplyassets.com
+DOMAIN,*.preplycdn.com
+DOMAIN,*.preplystatic.com
 DOMAIN,*.stel.com
 DOMAIN,*.t.me
 DOMAIN,*.telegram.me
@@ -77,6 +83,7 @@ DOMAIN,mmg.whatsapp.net
 DOMAIN,o207216.ingest.sentry.io
 DOMAIN,o33249.ingest.sentry.io
 DOMAIN,pps.whatsapp.net
+DOMAIN,preply.com
 DOMAIN,prodregistryv2.org
 DOMAIN,quiz.directory
 DOMAIN,sc-analytics.com

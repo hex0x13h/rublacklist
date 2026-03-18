@@ -1,3 +1,10 @@
+DOMAIN,*.preply.com
+DOMAIN,*.preply.net
+DOMAIN,*.preply.org
+DOMAIN,*.preplyassets.com
+DOMAIN,*.preplycdn.com
+DOMAIN,*.preplystatic.com
+DOMAIN,preply.com
 DOMAIN-SUFFIX,codeweavers.com
 DOMAIN-SUFFIX,deepl.com
 DOMAIN-SUFFIX,foxnews.com
@@ -12,10 +19,3 @@ DOMAIN-SUFFIX,shopee.co.id
 DOMAIN-SUFFIX,techjury.net
 DOMAIN-SUFFIX,upwork.com
 DOMAIN-SUFFIX,x.ai
-DOMAIN,*.preply.com
-DOMAIN,preply.com
-DOMAIN,*.preplycdn.com
-DOMAIN,*.preply.org
-DOMAIN,*.preplyassets.com
-DOMAIN,*.preplystatic.com
-DOMAIN,*.preply.net

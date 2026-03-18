@@ -1,5 +1,35 @@
 [
     {
+        "hostname": "*.preply.com",
+        "ip": ""
+    }
+,
+    {
+        "hostname": "*.preply.net",
+        "ip": ""
+    }
+,
+    {
+        "hostname": "*.preply.org",
+        "ip": ""
+    }
+,
+    {
+        "hostname": "*.preplyassets.com",
+        "ip": ""
+    }
+,
+    {
+        "hostname": "*.preplycdn.com",
+        "ip": ""
+    }
+,
+    {
+        "hostname": "*.preplystatic.com",
+        "ip": ""
+    }
+,
+    {
         "hostname": "*.stel.com",
         "ip": ""
     }
