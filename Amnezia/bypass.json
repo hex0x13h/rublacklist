@@ -7045,12 +7045,22 @@
     }
 ,
     {
+        "hostname": "clau.de",
+        "ip": ""
+    }
+,
+    {
         "hostname": "claude.ai",
         "ip": ""
     }
 ,
     {
         "hostname": "claude.com",
+        "ip": ""
+    }
+,
+    {
+        "hostname": "claudemcpclient.com",
         "ip": ""
     }
 ,
@@ -91216,6 +91226,11 @@
 ,
     {
         "hostname": "serpens.femeretes.org",
+        "ip": ""
+    }
+,
+    {
+        "hostname": "servd-anthropic-website.b-cdn.net",
         "ip": ""
     }
 ,

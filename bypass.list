@@ -1,3 +1,5 @@
+ DOMAIN-SUFFIX,claudeusercontent.com
+ DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN,*.preply.com
 DOMAIN,*.preply.net
 DOMAIN,*.preply.org
@@ -98,6 +100,7 @@ DOMAIN,sc-prod.com
 DOMAIN,sc-prod.net
 DOMAIN,sc-static.net
 DOMAIN,sc-video.net
+DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN,setup.auth.openai.com
 DOMAIN,setup.workos.com
 DOMAIN,snap-dev.net
@@ -1520,8 +1523,10 @@ DOMAIN-SUFFIX,chroniclesec.com
 DOMAIN-SUFFIX,chunk-composing.canva.com
 DOMAIN-SUFFIX,clark-associates-zq.sentry.io
 DOMAIN-SUFFIX,classic.thetruestory.news
+DOMAIN-SUFFIX,clau.de
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claudemcpclient.com
 DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,clearance.deepl.com
 DOMAIN-SUFFIX,clickserve.cc-dt.com
