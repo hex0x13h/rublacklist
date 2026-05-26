@@ -23,6 +23,7 @@
 - `claude.list` -> `rules/services/service-claude.list`
 - `google.list` -> `rules/services/service-google.list`
 - `openai.list` -> `rules/services/service-openai.list`
+- `reddit.list` -> `rules/services/service-reddit.list`
 - `snapchat.list` -> `rules/services/service-snapchat.list`
 - `spotify.list` -> `rules/services/service-spotify.list`
 - `telegram.list` -> `rules/services/service-telegram.list`
