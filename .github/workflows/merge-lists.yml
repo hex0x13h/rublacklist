@@ -10,83 +10,40 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+
+      - name: Normalize rule lists
+        run: |
+          find . -name "*.list" \
+            -not -path "./.git/*" \
+            -not -path "./rules/aggregates/*" \
+            -not -path "./merged_bypass_list/*" \
+            -not -name "bypass.list" \
+            -not -name "domains.list" \
+            -not -name "full.list" \
+            | sort > rule-files.txt
+
+          python3 scripts/normalize-surge-lists.py --global-dedupe $(cat rule-files.txt)
+
       - name: Merge lists and remove duplicates
         run: |
-          # 创建临时目录
-          mkdir -p temp
-          
-          # 复制所有 .list 文件到临时目录，排除 domains.list、full.list 和 antifilter 目录
-          find . -name "*.list" -not -name "domains.list" -not -name "full.list" -not -path "./antifilter/*" -exec cp {} temp/ \;
-          
-          # 合并所有列表文件，过滤掉注释行和空行，去重并排序
-          cat temp/*.list | grep -v '^#' | grep -v '^$' | sort | uniq > bypass.list
-          
-          # 创建 merged_bypass_list 目录并生成 merged_bypass.list
+          mkdir -p rules/aggregates
+
+          cat $(cat rule-files.txt) \
+            | sort -u > bypass.list
+
+          cp bypass.list rules/aggregates/all-bypass.list
+
           mkdir -p merged_bypass_list
           cp bypass.list merged_bypass_list/merged_bypass.list
-          
-          # 清理临时目录
-          rm -rf temp
-          
+
       - name: Generate Amnezia bypass list
         run: |
-          # 创建 Amnezia 目录
-          mkdir -p Amnezia
-          
-          # 创建临时文件来收集所有域名
-          temp_domains=$(mktemp)
-          
-          # 只处理主目录下的列表文件（排除子文件夹）
-          for file in *.list; do
-            if [ -f "$file" ]; then
-              echo "Processing main directory file for Amnezia: $file"
-              # 提取 DOMAIN 规则
-              grep "^DOMAIN," "$file" | cut -d',' -f2 >> "$temp_domains"
-              # 提取 DOMAIN-SUFFIX 规则
-              grep "^DOMAIN-SUFFIX," "$file" | cut -d',' -f2 >> "$temp_domains"
-            fi
-          done
-          
-          # 去重并排序
-          sort "$temp_domains" | uniq > "${temp_domains}.sorted"
-          
-          # 生成 JSON 格式
-          echo "[" > Amnezia/bypass.json
-          first=true
-          while read domain; do
-            if [ "$first" = true ]; then
-              first=false
-            else
-              echo "," >> Amnezia/bypass.json
-            fi
-            echo "    {" >> Amnezia/bypass.json
-            echo "        \"hostname\": \"$domain\"," >> Amnezia/bypass.json
-            echo "        \"ip\": \"\"" >> Amnezia/bypass.json
-            echo "    }" >> Amnezia/bypass.json
-          done < "${temp_domains}.sorted"
-          echo "]" >> Amnezia/bypass.json
-          
-          # 清理临时文件
-          rm -f "$temp_domains" "${temp_domains}.sorted"
-          
-      - name: Remove duplicates from individual lists
-        run: |
-          # 对每个单独的列表文件进行去重（排除合并的列表）
-          for file in *.list; do
-            if [ -f "$file" ] && [ "$file" != "bypass.list" ] && [ "$file" != "domains.list" ] && [ "$file" != "full.list" ]; then
-              # 创建临时文件
-              temp_file=$(mktemp)
-              # 过滤注释行和空行，去重并排序
-              grep -v '^#' "$file" | grep -v '^$' | sort | uniq > "$temp_file"
-              # 替换原文件
-              mv "$temp_file" "$file"
-            fi
-          done
-          
+          python3 scripts/normalize-surge-lists.py --amnezia-json Amnezia/bypass.json bypass.list
+
       - name: Commit and push if changed
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add bypass.list merged_bypass_list/merged_bypass.list Amnezia/bypass.json *.list
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update lists with deduplication and Amnezia format" && git push) 
+          rm -f rule-files.txt
+          git add .
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Normalize Surge rule lists" && git push)

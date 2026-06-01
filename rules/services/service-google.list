@@ -5,7 +5,6 @@ DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,recaptcha
 DOMAIN-SUFFIX,0emm.com
-DOMAIN-SUFFIX,1e100.net
 DOMAIN-SUFFIX,1ucrs.com
 DOMAIN-SUFFIX,265.com
 DOMAIN-SUFFIX,2mdn-cn.net
@@ -696,3 +695,18 @@ DOMAIN-SUFFIX,zynamics.com
 DOMAIN-SUFFIX,178.238.223.35.bc.googleusercontent.com
 DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com
 DOMAIN-SUFFIX,webchannel-alkalimakersuite-pa.clients6.google.com
+IP-CIDR,160.79.104.0/23,no-resolve
+IP-CIDR,172.110.32.0/21,no-resolve
+IP-CIDR,173.194.0.0/16,no-resolve
+IP-CIDR,216.73.80.0/20,no-resolve
+IP-CIDR,74.125.0.0/16,no-resolve
+IP-CIDR6,2607:6bc0::/48,no-resolve
+IP-CIDR6,2620:120:e000::/40,no-resolve
+PROCESS-NAME,BackupandSync
+PROCESS-NAME,com.android.vending
+PROCESS-NAME,com.google.android.gms
+PROCESS-NAME,com.google.android.gsf
+PROCESS-NAME,com.google.android.play.games
+USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*
+USER-AGENT,*com.google.Drive*
+USER-AGENT,Google.Drive*

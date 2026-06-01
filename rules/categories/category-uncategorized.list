@@ -1030,7 +1030,6 @@ DOMAIN-SUFFIX,cdn.jetbrains.com
 DOMAIN-SUFFIX,cdn.make.com
 DOMAIN-SUFFIX,cdn.reddxxx.com
 DOMAIN-SUFFIX,cdn.sapphire.microsoftapp.net
-DOMAIN-SUFFIX,cdn.signal.org
 DOMAIN-SUFFIX,cdn.viber.com
 DOMAIN-SUFFIX,cdn.zapier.com
 DOMAIN-SUFFIX,cdn1.patreon.com
@@ -1039,7 +1038,6 @@ DOMAIN-SUFFIX,cdn1d-static-shared.phncdn.com
 DOMAIN-SUFFIX,cdn2-staging.signal.org
 DOMAIN-SUFFIX,cdn2.patreon.com
 DOMAIN-SUFFIX,cdn2.reddxxx.com
-DOMAIN-SUFFIX,cdn2.signal.org
 DOMAIN-SUFFIX,cdn3-staging.signal.org
 DOMAIN-SUFFIX,cdn3.reddxxx.com
 DOMAIN-SUFFIX,cdn3.signal.org
@@ -1054,7 +1052,6 @@ DOMAIN-SUFFIX,cdn7.patreon.com
 DOMAIN-SUFFIX,cdn7.reddxxx.com
 DOMAIN-SUFFIX,cdn77-pic.xnxx-cdn.com
 DOMAIN-SUFFIX,cdn77-pic.xvideos-cdn.com
-DOMAIN-SUFFIX,cdninstagram.com
 DOMAIN-SUFFIX,cdsi.reflector.signal.org
 DOMAIN-SUFFIX,cdsi.signal.org
 DOMAIN-SUFFIX,cdsi.staging.reflector.signal.org
@@ -1087,7 +1084,6 @@ DOMAIN-SUFFIX,chatbots.vercel.zapier.com
 DOMAIN-SUFFIX,chatclient-mobile.naukri.com
 DOMAIN-SUFFIX,chatclient.naukri.com
 DOMAIN-SUFFIX,cherta.media
-DOMAIN-SUFFIX,chess.com
 DOMAIN-SUFFIX,chunk-composing.canva.com
 DOMAIN-SUFFIX,clark-associates-zq.sentry.io
 DOMAIN-SUFFIX,classic.thetruestory.news
@@ -1197,7 +1193,6 @@ DOMAIN-SUFFIX,de.getsentry.net
 DOMAIN-SUFFIX,de.quora.com
 DOMAIN-SUFFIX,de.sentry.io
 DOMAIN-SUFFIX,de.support.whoop.com
-DOMAIN-SUFFIX,deepl.com
 DOMAIN-SUFFIX,deferred-chat.x.ai
 DOMAIN-SUFFIX,delivery.naukri.com
 DOMAIN-SUFFIX,delta.femeretes.org
@@ -1229,24 +1224,16 @@ DOMAIN-SUFFIX,dis.gd
 DOMAIN-SUFFIX,disboard.org
 DOMAIN-SUFFIX,discord-activities.com
 DOMAIN-SUFFIX,discord.center
-DOMAIN-SUFFIX,discord.co
-DOMAIN-SUFFIX,discord.com
 DOMAIN-SUFFIX,discord.design
 DOMAIN-SUFFIX,discord.dev
-DOMAIN-SUFFIX,discord.gg
-DOMAIN-SUFFIX,discord.gift
 DOMAIN-SUFFIX,discord.gifts
 DOMAIN-SUFFIX,discord.me
-DOMAIN-SUFFIX,discord.media
-DOMAIN-SUFFIX,discord.new
 DOMAIN-SUFFIX,discord.st
 DOMAIN-SUFFIX,discord.store
 DOMAIN-SUFFIX,discord.tools
-DOMAIN-SUFFIX,discordInvites.net
+DOMAIN-SUFFIX,discordinvites.net
 DOMAIN-SUFFIX,discordactivities.com
-DOMAIN-SUFFIX,discordapp.com
 DOMAIN-SUFFIX,discordapp.io
-DOMAIN-SUFFIX,discordapp.net
 DOMAIN-SUFFIX,discordbee.com
 DOMAIN-SUFFIX,discordbotlist.com
 DOMAIN-SUFFIX,discordcdn.com
@@ -1260,7 +1247,6 @@ DOMAIN-SUFFIX,discordpartygames.com
 DOMAIN-SUFFIX,discords.com
 DOMAIN-SUFFIX,discordsays.com
 DOMAIN-SUFFIX,discordservers.com
-DOMAIN-SUFFIX,discordstatus.com
 DOMAIN-SUFFIX,discordtop.com
 DOMAIN-SUFFIX,discover.viber.com
 DOMAIN-SUFFIX,discover.whoop.com
@@ -1522,7 +1508,6 @@ DOMAIN-SUFFIX,external.fbeg10-1.fna.fbcdn.net
 DOMAIN-SUFFIX,f-log-editor.grammarly.io
 DOMAIN-SUFFIX,f.make.com
 DOMAIN-SUFFIX,f16-tiktok-common.ibytedtos.com
-DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,facebook.com.es
 DOMAIN-SUFFIX,facebook.com.vn
 DOMAIN-SUFFIX,facebook.fr
@@ -1535,10 +1520,7 @@ DOMAIN-SUFFIX,fanbox.cc
 DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,fast.viber.com
 DOMAIN-SUFFIX,fastporndelivery.hqporner.com
-DOMAIN-SUFFIX,fb.com
 DOMAIN-SUFFIX,fb.me
-DOMAIN-SUFFIX,fbcdn.net
-DOMAIN-SUFFIX,fbsbx.com
 DOMAIN-SUFFIX,feature-scoring.getsentry.net
 DOMAIN-SUFFIX,feedback.refactoring.guru
 DOMAIN-SUFFIX,feedcdn.sapphire.microsoftapp.net
@@ -1547,7 +1529,6 @@ DOMAIN-SUFFIX,ferramera.patreon.com
 DOMAIN-SUFFIX,fflms.naukri.com
 DOMAIN-SUFFIX,fiber.femeretes.org
 DOMAIN-SUFFIX,fiber.stream.voidboost.cc
-DOMAIN-SUFFIX,ficbook.net
 DOMAIN-SUFFIX,file.notion.so
 DOMAIN-SUFFIX,files.naukri.com
 DOMAIN-SUFFIX,files.themoviedb.org
@@ -1557,7 +1538,7 @@ DOMAIN-SUFFIX,filevalidation.naukri.com
 DOMAIN-SUFFIX,filmitorrent.net
 DOMAIN-SUFFIX,filmix.biz
 DOMAIN-SUFFIX,filmix.fm
-DOMAIN-SUFFIX,findAdiscord.com
+DOMAIN-SUFFIX,findadiscord.com
 DOMAIN-SUFFIX,fingerium.femeretes.org
 DOMAIN-SUFFIX,finland10000.discord.gg
 DOMAIN-SUFFIX,finland10001.discord.gg
@@ -2161,7 +2142,6 @@ DOMAIN-SUFFIX,graphql.strava.com
 DOMAIN-SUFFIX,grazie.ai
 DOMAIN-SUFFIX,grazie.aws.intellij.net
 DOMAIN-SUFFIX,green.femeretes.org
-DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,grok.x.ai
 DOMAIN-SUFFIX,group-vb.cdn.integration.viber.com
 DOMAIN-SUFFIX,group-vb.cdn.viber.com
@@ -2835,7 +2815,6 @@ DOMAIN-SUFFIX,instagram-p42-shv-02-ort2.fbcdn.net
 DOMAIN-SUFFIX,instagram-p42-shv-02-xsp1.fbcdn.net
 DOMAIN-SUFFIX,instagram-pp-shv-01-lga3.fbcdn.net
 DOMAIN-SUFFIX,instagram.c10r.instagram.com
-DOMAIN-SUFFIX,instagram.com
 DOMAIN-SUFFIX,instagram.fbeg10-1.fna.fbcdn.net
 DOMAIN-SUFFIX,instagram.fhel5-1.fna.fbcdn.net
 DOMAIN-SUFFIX,instagram.frix7-1.fna.fbcdn.net
@@ -3381,7 +3360,6 @@ DOMAIN-SUFFIX,ipv6-c088-ord001-dev-ix.1.live.nflxvideo.net
 DOMAIN-SUFFIX,ipv6-c088-ord001-dev-ix.1.oca.nflxvideo.net
 DOMAIN-SUFFIX,ipv6-c168-was001-dev-ix.1.oca.nflxvideo.net
 DOMAIN-SUFFIX,iridium.femeretes.org
-DOMAIN-SUFFIX,isnssdk.com
 DOMAIN-SUFFIX,istories.media
 DOMAIN-SUFFIX,ita-free.www.deepl.com
 DOMAIN-SUFFIX,japan1004.discord.gg
@@ -3884,7 +3862,6 @@ DOMAIN-SUFFIX,libraweb.tiktokw.eu
 DOMAIN-SUFFIX,license.make.com
 DOMAIN-SUFFIX,limbo.femeretes.org
 DOMAIN-SUFFIX,limbo.stream.voidboost.cc
-DOMAIN-SUFFIX,linkedin.com
 DOMAIN-SUFFIX,links.email.trainingpeaks.com
 DOMAIN-SUFFIX,links.patreon.com
 DOMAIN-SUFFIX,links.strava.com
@@ -4094,7 +4071,6 @@ DOMAIN-SUFFIX,media.viber.com
 DOMAIN-SUFFIX,mediacdn.naukri.com
 DOMAIN-SUFFIX,mediazona.ca
 DOMAIN-SUFFIX,medium.com
-DOMAIN-SUFFIX,meduza.io
 DOMAIN-SUFFIX,mee6.xyz
 DOMAIN-SUFFIX,memohrc.org
 DOMAIN-SUFFIX,memopzk.org
@@ -4105,7 +4081,6 @@ DOMAIN-SUFFIX,merchantpool1.linkedin.com
 DOMAIN-SUFFIX,mercury.femeretes.org
 DOMAIN-SUFFIX,mercury.stream.voidboost.cc
 DOMAIN-SUFFIX,messenger-apps.intercom.io
-DOMAIN-SUFFIX,messenger.com
 DOMAIN-SUFFIX,messenger.naukri.com
 DOMAIN-SUFFIX,metabase.getsentry.net
 DOMAIN-SUFFIX,metro.strava.com
@@ -4238,9 +4213,6 @@ DOMAIN-SUFFIX,mta-sts.jetbrains.com
 DOMAIN-SUFFIX,mta-sts.test.tuta.com
 DOMAIN-SUFFIX,mta-sts.tuta.com
 DOMAIN-SUFFIX,mundo-figma.sentry.io
-DOMAIN-SUFFIX,muscdn.com
-DOMAIN-SUFFIX,musemuse.cn
-DOMAIN-SUFFIX,musical.ly
 DOMAIN-SUFFIX,my.naukri.com
 DOMAIN-SUFFIX,my.sentry.io
 DOMAIN-SUFFIX,mybbc-analytics.files.bbci.co.uk
@@ -4261,9 +4233,7 @@ DOMAIN-SUFFIX,navalny.com
 DOMAIN-SUFFIX,neon.femeretes.org
 DOMAIN-SUFFIX,neon.stream.voidboost.cc
 DOMAIN-SUFFIX,netflix.ca
-DOMAIN-SUFFIX,netflix.com
 DOMAIN-SUFFIX,netflix.com.au
-DOMAIN-SUFFIX,netflix.net
 DOMAIN-SUFFIX,netflixdnstest1.com
 DOMAIN-SUFFIX,netflixdnstest10.com
 DOMAIN-SUFFIX,netflixdnstest2.com
@@ -4498,12 +4468,7 @@ DOMAIN-SUFFIX,nexus-websocket-a.intercom.io
 DOMAIN-SUFFIX,nexus.femeretes.org
 DOMAIN-SUFFIX,nexus.stream.voidboost.cc
 DOMAIN-SUFFIX,nexus.tidal.com
-DOMAIN-SUFFIX,nflxext.com
-DOMAIN-SUFFIX,nflximg.com
-DOMAIN-SUFFIX,nflximg.net
 DOMAIN-SUFFIX,nflxsearch.net
-DOMAIN-SUFFIX,nflxso.net
-DOMAIN-SUFFIX,nflxvideo.net
 DOMAIN-SUFFIX,ngenix.assets.service.jetbrains.space
 DOMAIN-SUFFIX,nika.femeretes.org
 DOMAIN-SUFFIX,nika.stream.voidboost.cc
@@ -4544,7 +4509,6 @@ DOMAIN-SUFFIX,notion.ai
 DOMAIN-SUFFIX,notion.com
 DOMAIN-SUFFIX,notion.dev
 DOMAIN-SUFFIX,notion.site
-DOMAIN-SUFFIX,notion.so
 DOMAIN-SUFFIX,notionup.com
 DOMAIN-SUFFIX,notionusercontent.com
 DOMAIN-SUFFIX,nova.femeretes.org
@@ -5187,7 +5151,6 @@ DOMAIN-SUFFIX,partnertraining.make.com
 DOMAIN-SUFFIX,paste.fmhy.net
 DOMAIN-SUFFIX,pastela.app
 DOMAIN-SUFFIX,pastes.fmhy.net
-DOMAIN-SUFFIX,patreon.com
 DOMAIN-SUFFIX,pay.test.tuta.com
 DOMAIN-SUFFIX,pay.tuta.com
 DOMAIN-SUFFIX,pay.viber.com
@@ -5223,7 +5186,6 @@ DOMAIN-SUFFIX,pikcloud.sentry.io
 DOMAIN-SUFFIX,pitaya-ru.tiktokv.com
 DOMAIN-SUFFIX,pixiv.co.jp
 DOMAIN-SUFFIX,pixiv.me
-DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pixiv.org
 DOMAIN-SUFFIX,pixivision.net
 DOMAIN-SUFFIX,pixon.ads-pixiv.net
@@ -5278,11 +5240,9 @@ DOMAIN-SUFFIX,productupdates.naukri.com
 DOMAIN-SUFFIX,proekt.media
 DOMAIN-SUFFIX,progreso.sentry.io
 DOMAIN-SUFFIX,promo.strava.com
-DOMAIN-SUFFIX,prostovpn.org
 DOMAIN-SUFFIX,protactinium.cloud.kodik-storage.com
 DOMAIN-SUFFIX,proton-me.cdn.prismic.io
 DOMAIN-SUFFIX,proton.femeretes.org
-DOMAIN-SUFFIX,proton.me
 DOMAIN-SUFFIX,proton.stream.voidboost.cc
 DOMAIN-SUFFIX,protonmail.com
 DOMAIN-SUFFIX,proxy.app.internal.prod.grazie.aws.intellij.net
@@ -5495,7 +5455,6 @@ DOMAIN-SUFFIX,pximg.net
 DOMAIN-SUFFIX,qsbr.cf2.quoracdn.net
 DOMAIN-SUFFIX,quic-tiktok-core-proxy-i18n-gcpva.byteoversea.net
 DOMAIN-SUFFIX,quic-tiktok-proxy-i18n-gcpva.byteoversea.net
-DOMAIN-SUFFIX,quora.com
 DOMAIN-SUFFIX,quoteboard.sentry.dev
 DOMAIN-SUFFIX,r.bbci.co.uk
 DOMAIN-SUFFIX,r.miro.com
@@ -7287,7 +7246,6 @@ DOMAIN-SUFFIX,rutor.info
 DOMAIN-SUFFIX,rutor.is
 DOMAIN-SUFFIX,rutor.org
 DOMAIN-SUFFIX,rutracker.net
-DOMAIN-SUFFIX,rutracker.org
 DOMAIN-SUFFIX,rutracker.ru
 DOMAIN-SUFFIX,rutracker.wiki
 DOMAIN-SUFFIX,rutrk.org
@@ -7601,7 +7559,6 @@ DOMAIN-SUFFIX,sf16-website-login.neutral.ttwstatic.com
 DOMAIN-SUFFIX,sf16m-geckocdn.tiktokcdn.com
 DOMAIN-SUFFIX,sf6-ttcdn-tos.pstatp.com
 DOMAIN-SUFFIX,sfu.voip.signal.org
-DOMAIN-SUFFIX,sgsnssdk.com
 DOMAIN-SUFFIX,shadow.femeretes.org
 DOMAIN-SUFFIX,shadow.stream.voidboost.cc
 DOMAIN-SUFFIX,share-cdn.prod.whoop.com
@@ -7631,8 +7588,6 @@ DOMAIN-SUFFIX,sierra.stream.voidboost.cc
 DOMAIN-SUFFIX,signal.art
 DOMAIN-SUFFIX,signal.group
 DOMAIN-SUFFIX,signal.link
-DOMAIN-SUFFIX,signal.me
-DOMAIN-SUFFIX,signal.org
 DOMAIN-SUFFIX,signal.tube
 DOMAIN-SUFFIX,silence.femeretes.org
 DOMAIN-SUFFIX,silence.stream.voidboost.cc
@@ -8404,7 +8359,6 @@ DOMAIN-SUFFIX,stockholm9724.discord.gg
 DOMAIN-SUFFIX,stockholm9889.discord.gg
 DOMAIN-SUFFIX,storage-manager-staging.signal.org
 DOMAIN-SUFFIX,storage-manager.signal.org
-DOMAIN-SUFFIX,storage.signal.org
 DOMAIN-SUFFIX,store.duolingo.com
 DOMAIN-SUFFIX,store.externulls.com
 DOMAIN-SUFFIX,store.strava.com
@@ -8653,7 +8607,6 @@ DOMAIN-SUFFIX,thefacebook.com
 DOMAIN-SUFFIX,theins.press
 DOMAIN-SUFFIX,theins.ru
 DOMAIN-SUFFIX,thelocker.whoop.com
-DOMAIN-SUFFIX,themoviedb.org
 DOMAIN-SUFFIX,thepiratebay.org
 DOMAIN-SUFFIX,thetruestory.news
 DOMAIN-SUFFIX,thirdparty-public-apps-media.canva-apps.com
@@ -8662,18 +8615,14 @@ DOMAIN-SUFFIX,thumbs.filmix.fm
 DOMAIN-SUFFIX,tiktok-lb-alisg.byteoversea.net
 DOMAIN-SUFFIX,tiktok-lb-maliva.byteoversea.net
 DOMAIN-SUFFIX,tiktok-platform-lb-alisg.byteoversea.net
-DOMAIN-SUFFIX,tiktok.com
-DOMAIN-SUFFIX,tiktokcdn-in.com
 DOMAIN-SUFFIX,tiktokcdn-us.com
 DOMAIN-SUFFIX,tiktokcdn-us.com.atomile.com
-DOMAIN-SUFFIX,tiktokcdn.com
 DOMAIN-SUFFIX,tiktokcdn.com.atomile.com
 DOMAIN-SUFFIX,tiktokcdn.com.c.bytetcdn.com
 DOMAIN-SUFFIX,tiktokcdn.com.c.worldfcdn.com
 DOMAIN-SUFFIX,tiktokcdn.com.rocket-cdn.com
 DOMAIN-SUFFIX,tiktokd.org
 DOMAIN-SUFFIX,tiktokglobalshop.com
-DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,tiktokv.com.c.worldfcdn.com
 DOMAIN-SUFFIX,tiktokv.com.c.worldfcdn2.com
 DOMAIN-SUFFIX,tiktokw.eu
@@ -8713,13 +8662,11 @@ DOMAIN-SUFFIX,try.whoop.com
 DOMAIN-SUFFIX,tspg.getsentry.net
 DOMAIN-SUFFIX,ttlivecdn.com
 DOMAIN-SUFFIX,ttlivecdn.com.c.worldfcdn.com
-DOMAIN-SUFFIX,ttoversea.net
 DOMAIN-SUFFIX,ttoverseaus.net
 DOMAIN-SUFFIX,turbo.femeretes.org
 DOMAIN-SUFFIX,turn.viber.com
 DOMAIN-SUFFIX,turn3.voip.signal.org
 DOMAIN-SUFFIX,tuta.com
-DOMAIN-SUFFIX,tutanota.com
 DOMAIN-SUFFIX,tvrain.ru
 DOMAIN-SUFFIX,tweetdeck.com
 DOMAIN-SUFFIX,typeahead.grok.com
@@ -8744,7 +8691,6 @@ DOMAIN-SUFFIX,unv.integration.viber.com
 DOMAIN-SUFFIX,unv.viber.com
 DOMAIN-SUFFIX,update.viber.com
 DOMAIN-SUFFIX,updates.discord.com
-DOMAIN-SUFFIX,updates.signal.org
 DOMAIN-SUFFIX,updates2.signal.org
 DOMAIN-SUFFIX,uploads.jetbrains.com
 DOMAIN-SUFFIX,uploads.services.jetbrains.com

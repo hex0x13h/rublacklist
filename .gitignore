@@ -1,3 +1,6 @@
 .DS_Store
+__pycache__/
+*.py[cod]
+rule-files.txt
 Amnezia/
 merged_bypass_list/
