@@ -13,14 +13,24 @@ jobs:
 
       - name: Normalize rule lists
         run: |
-          find . -name "*.list" \
-            -not -path "./.git/*" \
-            -not -path "./rules/aggregates/*" \
-            -not -path "./merged_bypass_list/*" \
-            -not -name "bypass.list" \
-            -not -name "domains.list" \
-            -not -name "full.list" \
-            | sort > rule-files.txt
+          {
+            find rules/services -name "*.list" | sort
+            find rules/asn -name "*.list" | sort
+            find rules/categories -name "*.list" | sort
+            find sources -name "*.list" | sort
+            find . -name "*.list" \
+              -not -path "./.git/*" \
+              -not -path "./rules/services/*" \
+              -not -path "./rules/asn/*" \
+              -not -path "./rules/categories/*" \
+              -not -path "./rules/aggregates/*" \
+              -not -path "./sources/*" \
+              -not -path "./merged_bypass_list/*" \
+              -not -name "bypass.list" \
+              -not -name "domains.list" \
+              -not -name "full.list" \
+              | sort
+          } > rule-files.txt
 
           python3 scripts/normalize-surge-lists.py --global-dedupe $(cat rule-files.txt)
 
