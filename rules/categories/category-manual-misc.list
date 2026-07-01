@@ -1,9 +1,9 @@
-DOMAIN,*.preply.com
-DOMAIN,*.preply.net
-DOMAIN,*.preply.org
-DOMAIN,*.preplyassets.com
-DOMAIN,*.preplycdn.com
-DOMAIN,*.preplystatic.com
+DOMAIN-SUFFIX,preply.com
+DOMAIN-SUFFIX,preply.net
+DOMAIN-SUFFIX,preply.org
+DOMAIN-SUFFIX,preplyassets.com
+DOMAIN-SUFFIX,preplycdn.com
+DOMAIN-SUFFIX,preplystatic.com
 DOMAIN,preply.com
 DOMAIN-SUFFIX,codeweavers.com
 DOMAIN-SUFFIX,deepl.com
@@ -14,7 +14,6 @@ DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,naukrigulf.com
 DOMAIN-SUFFIX,noon.com
 DOMAIN-SUFFIX,notion.so
-DOMAIN-SUFFIX,preply.com
 DOMAIN-SUFFIX,shopee.co.id
 DOMAIN-SUFFIX,techjury.net
 DOMAIN-SUFFIX,upwork.com

@@ -1,9 +1,9 @@
-DOMAIN,*.stel.com
-DOMAIN,*.t.me
-DOMAIN,*.telegram.me
-DOMAIN,*.telegram.org
-DOMAIN,*.telesco.pe
-DOMAIN,*.tg.dev
+DOMAIN-SUFFIX,stel.com
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telesco.pe
+DOMAIN-SUFFIX,tg.dev
 DOMAIN,contest.com
 DOMAIN,quiz.directory
 DOMAIN,t.me

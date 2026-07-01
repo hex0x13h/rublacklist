@@ -43,8 +43,9 @@ jobs:
 
           cp bypass.list rules/aggregates/all-bypass.list
 
-          mkdir -p merged_bypass_list
-          cp bypass.list merged_bypass_list/merged_bypass.list
+      - name: Validate Surge rule lists
+        run: |
+          python3 scripts/validate-surge-lists.py $(cat rule-files.txt) bypass.list rules/aggregates/all-bypass.list
 
       - name: Generate Amnezia bypass list
         run: |

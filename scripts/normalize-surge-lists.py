@@ -39,6 +39,11 @@ def normalize_line(raw_line: str) -> str | None:
         # Surge domain rules must be host names, not IPv6 literals/CIDRs.
         if ":" in value or "/" in value:
             return None
+        # Surge DOMAIN is an exact host match. Wildcard hosts like
+        # DOMAIN,*.example.com should be expressed as DOMAIN-SUFFIX,example.com.
+        if value.startswith("*."):
+            rule_type = "DOMAIN-SUFFIX"
+            value = value[2:]
 
     if rule_type in CIDR_RULES:
         try:
